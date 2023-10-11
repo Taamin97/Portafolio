@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #444;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Estilos específicos para proyectos */
+.proyecto {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.proyecto img {
+    max-width: 100%;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para enlaces en el footer */
+footer a {
+    color: white;
+    text-decoration: none;
+}

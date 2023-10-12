@@ -11,8 +11,9 @@ header {
 }
 
 nav ul {
+    color: white;
     list-style: none;
-    background-color: #444;
+    background-color: #000000;
     padding: 0;
     text-align: center;
 }
@@ -43,9 +44,8 @@ section {
     max-width: 100%;
 }
 
-/* Estilos para el footer */
 footer {
-    background-color: #333;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 10px;
@@ -53,12 +53,17 @@ footer {
 
 /* Estilos para enlaces en el footer */
 footer a {
+    background-color: #000000;
     color: white;
     text-decoration: none;
 }
 
 .navbar {
-    background-color: transparent;
+    background-color: black;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
 }
 
 body {
@@ -66,9 +71,6 @@ body {
     color: #fff;
 }
 
-
-
-/* Añadido estilo para el ícono de las redes sociales */
 .social-icons {
     text-align: center;
 }

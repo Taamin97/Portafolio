@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Portafolio de Aminta Rico - Desarrolladora Web Front End</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
+
 <body>
-    <header style="background-image: url('assets/images/1366_2000.jpeg'); background-size: cover; background-position: center; text-align: center; color: white; padding: 100px;">
-        <h1>Aminta Rico</h1>
-        <p class="lead">Desarrolladora Web Front End</p>
-    </header>
-    
-    </header>
+    <title>Portafolio de Aminta Rico - Desarrolladora Web Front End</title>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Cambiado "header" a "div" para el encabezado personalizado -->
+            <div id="header">
+                <h1>Aminta Rico</h1>
+                <p class="lead">Desarrolladora Web Front End</p>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -36,23 +38,63 @@
             </div>
         </div>
     </nav>
+
+    <div id="headerCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#headerCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#headerCarousel" data-slide-to="1"></li>
+            <li data-target="#headerCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://okdiario.com/img/2018/11/28/codigo-html.jpg" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://p.turbosquid.com/ts-thumb/8w/NjjDfv/byNZtCIG/1/png/1505492431/600x600/fit_q87/59d6bde1644b33dee98c669e75437bbd7bcc9eb5/1.jpg"
+                    alt="Imagen 2">
+            </div>
+            <div class "carousel-item">
+                <img src="https://www.dzoom.org.es/wp-content/uploads/2020/06/capas-de-ajuste-portada-810x540.jpg"
+                    alt="Imagen 3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#headerCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#headerCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" ariahidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
     <section id="sobre-mi" class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <h2>Sobre Mí</h2>
-                    <p>Mi nombre es Aminta Rico, y soy una apasionada desarrolladora web front-end con una amplia experiencia en varias áreas. Durante mi carrera, he adquirido habilidades sólidas en el diseño de páginas web en la plataforma de Shopify, la creación de modelos 3D y el diseño de interfaces de usuario (UI) y experiencia de usuario (UX).</p>
-                <p>Como desarrolladora web, me enfoco en crear experiencias en línea atractivas y funcionales que ayuden a mis clientes a alcanzar sus objetivos. Mi experiencia en Shopify me permite crear tiendas en línea personalizadas y efectivas, mientras que mi habilidad en modelos 3D agrega un elemento interactivo y atractivo a los proyectos.</p>
-                <p>Me apasiona el diseño de UI y UX, y estoy comprometida en crear interfaces intuitivas y agradables para los usuarios. Mi objetivo es combinar mis habilidades técnicas y creativas para proporcionar soluciones web de alta calidad que cumplan con las expectativas de mis clientes.</p>
+                    <p>Mi nombre es Aminta Rico, y soy una apasionada desarrolladora web front-end con una amplia
+                        experiencia en varias áreas. Durante mi carrera, he adquirido habilidades sólidas en el diseño
+                        de páginas web en la plataforma de Shopify, la creación de modelos 3D y el diseño de interfaces
+                        de usuario (UI) y experiencia de usuario (UX).</p>
+                    <p>Como desarrolladora web, me enfoco en crear experiencias en línea atractivas y funcionales que
+                        ayuden a mis clientes a alcanzar sus objetivos. Mi experiencia en Shopify me permite crear
+                        tiendas en línea personalizadas y efectivas, mientras que mi habilidad en modelos 3D agrega un
+                        elemento interactivo y atractivo a los proyectos.</p>
+                    <p>Me apasiona el diseño de UI y UX, y estoy comprometida en crear interfaces intuitivas y
+                        agradables para los usuarios. Mi objetivo es combinar mis habilidades técnicas y creativas para
+                        proporcionar soluciones web de alta calidad que cumplan con las expectativas de mis clientes.
+                    </p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="assets/images/Pictures.jpg" alt="Imagen de perfil" style="height: 100%;" class="img-fluid rounded-rectangle">
+                    <img src="assets/images/Pictures.jpg" alt="Imagen de perfil" style="height: 100%;"
+                        class="img-fluid rounded-rectangle">
                 </div>
             </div>
         </div>
     </section>
     <section id="proyectos" class="py-5 bg-light">
-        <div class="container">
+        <div class="container" style="background-color:#000;" color white;>
             <h2 class="text-center">Proyectos Shopify</h2>
             <div class="row mx-auto">
                 <div class="col-md-4">
@@ -74,30 +116,31 @@
                             <p class="card-text">Descripción del segundo proyecto.</p>
                         </div>
                     </div>
-            
+                </div>
+            </div>
+        </div>
     </section>
-    
-    </section>
+
     <section id="contacto" class="py-5">
         <div class="container">
             <h2 class="text-center">Contacto</h2>
-            <p class="text-center">¡Puedes contactarme en mi correo electrónico: <a href="mailto:rico7822@gmail.com">rico7822@gmail.com</a></p>
+            <p class="text-center">¡Puedes contactarme en mi correo electrónico: <a
+                    href="mailto:rico7822@gmail.com">rico7822@gmail.com</a></p>
         </div>
     </section>
     <footer class="bg-dark text-white text-center py-3">
         <div class="social-icons float-center">
-            <a href="https://instagram.com/ms.katzen?igshid=MzMyNGUyNmU2YQ== " target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/amintailluminati?mibextid=ZbWKwL " target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/ms.katzen?igshid=MzMyNGUyNmU2YQ== " target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/amintailluminati?mibextid=ZbWKwL " target="_blank"><i
+                    class="fab fa-facebook"></i></a>
             <a href="https://www.tiktok.com/@gatitarico" target="_blank"><i class="fab fa-tiktok"></i></a>
         </div>
     </footer>
-    
-            </div>
-        </footer>
-        
-    </footer>
-    
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>

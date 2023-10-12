@@ -3,10 +3,11 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-size: cover;
+    background-color: #000000;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 100px;
 }
 
 nav ul {
@@ -54,4 +55,20 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+/* Añadido estilo para el ícono de las redes sociales */
+.social-icons {
+    text-align: center;
 }

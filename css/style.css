@@ -78,3 +78,17 @@ body {
 #proyectos{
 background-color: black;
 }
+.project-container {
+    background-size: cover;
+    background-position: center;
+    padding-top: 100%; /* 1:1 aspect ratio (cuadrada) */
+}
+
+.project-container h3 {
+    margin-top: 20px; /* Ajusta el espacio entre el título y la imagen */
+}
+
+.project-container a {
+    display: block;
+    margin-top: 20px; /* Ajusta el espacio entre el botón y el título */
+}

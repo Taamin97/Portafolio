@@ -47,8 +47,9 @@ section {
 footer {
     background-color: #000000;
     color: white;
+    font-size: 18px;
     text-align: center;
-    padding: 10px;
+    padding: 25px;
 }
 
 /* Estilos para enlaces en el footer */
@@ -77,6 +78,10 @@ body {
 }
 #proyectos{
 background-color: black;
+margin-top: 0%;
+margin-bottom: 0%; 
+padding-top: 0%;
+padding-bottom: 0%; 
 }
 .project-container {
     background-size: cover;
@@ -91,4 +96,16 @@ background-color: black;
 .project-container a {
     display: block;
     margin-top: 20px; /* Ajusta el espacio entre el botón y el título */
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.contacto {
+    margin-top: 0%;
+margin-bottom: 0%; 
+padding-top: 0%;
+padding-bottom: 0%; 
 }

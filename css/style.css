@@ -110,3 +110,7 @@ margin-bottom: 0%;
 padding-top: 0%;
 padding-bottom: 0%; 
 }
+
+tr.table-dark {
+    border-spacing: 0 100px; /* Establece un espacio vertical de 100px entre filas */
+}
